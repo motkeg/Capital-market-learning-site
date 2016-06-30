@@ -1,0 +1,92 @@
+/* style.css*/
+
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.glyphicon{
+    color: gold;
+}
+.glyphicon:hover,#navTags li a:hover{
+    color: palegoldenrod;
+    background-color: #777777;
+}
+
+#navTags li a{
+    color: gold;
+}
+/******************************************************************************/
+
+/* main cover*/
+#cover {
+    background:#555555 url(../assets/stars.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#cover-caption {
+    width: 100%;
+}
+/*end*/
+
+
+/*************************crousel***************/
+#myCarousel{
+    background-color: #777777;
+}
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);  /*make all photos black and white*/
+    width: 100%; /*Set width to 100% */
+    margin: auto;
+}
+.carousel-caption h3 ,.carousel-caption p{
+    color: #245269 !important;
+}
+
+.carousel-indicators li {
+    border-color: gold;
+}
+.carousel-indicators li.active {
+    background-color: palegoldenrod;
+}
+
+/***************************************************/
+
+
+#video-slides{
+    padding: 5rem 0;
+    background-color: #7a7a7a;
+}
+
+#courses{
+    padding: 5rem 0;
+    background-color: #48484b;
+    color: #e3e3e3;
+}
+
+#contact {
+    padding: 5rem 0;
+    /*background-color: #e3e3e3;*/
+    padding:5rem 7.5rem;
+}
+
+#footer-main {
+    background: #555;
+    color: white;
+    font-size: 1.4rem;
+    padding: 2.0rem 0;
+
+}
