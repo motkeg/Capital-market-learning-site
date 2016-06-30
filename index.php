@@ -15,8 +15,6 @@
 
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-<!-- Google analytics -->
-<?php include_once("analyticstracking.php") ?>
 
 <!-- NavBar-->
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -140,78 +138,180 @@
     <div class="col-sm-2">
         <div class="thumbnail">
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" width="400" height="300" src="http://www.youtube.com/embed/XGSy3_Czz8k" allowfullscreen >
-
-                </iframe>
+                <iframe class="embed-responsive-item" width="400" height="300" src="https://www.youtube.com/embed/5kuPD8LCDBs?feature=player_embedded" allowfullscreen ></iframe>
             </div>
             <!--<img src="assets/girlincar.jpg" alt="Paris" width="400" height="300">-->
-            <p><strong>Paris</strong></p>
+            <p><strong>שיעור 1  </strong></p>
             <p>Friday 27 November 2015</p>
             <!--<button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>-->
         </div>
     </div>
     <div class="col-sm-2">
         <div class="thumbnail">
-            <img src="assets/stage.jpg" alt="New York" width="400" height="300">
-            <p><strong>New York</strong></p>
+            <!--<img src="assets/stage.jpg" alt="New York" width="400" height="300">-->
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="https://www.youtube.com/embed/ztB1XVTn6MQ?feature=player_embedded" allowfullscreen ></iframe>
+            </div>
+            <p><strong>שיעור 2</strong></p>
             <p>Saturday 28 November 2015</p>
         </div>
     </div>
     <div class="col-sm-2">
         <div class="thumbnail">
-            <img src="assets/mic.jpg" alt="San Francisco" width="400" height="300">
-            <p><strong>San Francisco</strong></p>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="https://www.youtube.com/embed/wFRcg-fsfOE?feature=player_embedded" allowfullscreen ></iframe>
+            </div>
+            <p><strong>שיעור 3 </strong></p>
             <p>Sunday 29 November 2015</p>
         </div>
     </div>
     <div class="col-sm-2">
         <div class="thumbnail">
-            <img src="assets/girlincar.jpg" alt="Paris" width="400" height="300">
-            <p><strong>Paris</strong></p>
+           <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="https://www.youtube.com/embed/kdlP_Fug0jU?feature=player_embedded" allowfullscreen ></iframe>
+            </div>
+            <p><strong>שיעור 4</strong></p>
             <p>Friday 27 November 2015</p>
             <!--<button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>-->
         </div>
     </div>
     <div class="col-sm-2">
         <div class="thumbnail">
-            <img src="assets/stage.jpg" alt="New York" width="400" height="300">
-            <p><strong>New York</strong></p>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="https://www.youtube.com/embed/6a55IESEies?feature=player_embedded" allowfullscreen ></iframe>
+            </div>
+            <p><strong>שיעור 5</strong></p>
             <p>Saturday 28 November 2015</p>
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div class="thumbnail">
+         <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="https://www.youtube.com/embed/enUNp5mn2v8?feature=player_embedded" allowfullscreen ></iframe>
+            </div>
+            <p><strong>שיעור 6</strong></p>
+            <p>Sunday 29 November 2015</p>
         </div>
     </div>
     <div class="col-sm-2">
         <div class="thumbnail">
-            <img src="assets/mic.jpg" alt="San Francisco" width="400" height="300">
-            <p><strong>San Francisco</strong></p>
+         <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="https://www.youtube.com/embed/qtJOwzDW1nY?feature=player_embedded" allowfullscreen ></iframe>
+            </div>
+            <p><strong>שיעור 7</strong></p>
             <p>Sunday 29 November 2015</p>
         </div>
     </div>
+    <div class="col-sm-2">
+        <div class="thumbnail">
+         <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="https://www.youtube.com/embed/xo86vpIyZXg?feature=player_embedded" allowfullscreen ></iframe>
+            </div>
+            <p><strong>שיעור 8</strong></p>
+            <p>Sunday 29 November 2015</p>
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <div class="thumbnail">
+         <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="https://www.youtube.com/embed/IJ1n6PQPaX4?feature=player_embedded" allowfullscreen ></iframe>
+            </div>
+            <p><strong>שיעור 9</strong></p>
+            <p>Sunday 29 November 2015</p>
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <div class="thumbnail">
+         <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="https://www.youtube.com/embed/QKX34CFmTSc?feature=player_embedded" allowfullscreen ></iframe>
+            </div>
+            <p><strong>שיעור 10</strong></p>
+            <p>Sunday 29 November 2015</p>
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <div class="thumbnail">
+         <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="https://www.youtube.com/embed/WSI-I1Xvb00?feature=player_embedded" allowfullscreen ></iframe>
+            </div>
+            <p><strong>שיעור 11 </strong></p>
+            <p>Sunday 29 November 2015</p>
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <div class="thumbnail">
+         <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="https://www.youtube.com/embed/XKxoXMbHxr0?feature=player_embedded" allowfullscreen ></iframe>
+            </div>
+            <p><strong>שיעור 12</strong></p>
+            <p>Sunday 29 November 2015</p>
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <div class="thumbnail">
+         <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="https://www.youtube.com/embed/7TaeHZvXTKs?feature=player_embedded" allowfullscreen ></iframe>
+            </div>
+            <p><strong>שיעור 13</strong></p>
+            <p>Sunday 29 November 2015</p>
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <div class="thumbnail">
+         <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="https://www.youtube.com/embed/ykY7gYotP9Q?feature=player_embedded" allowfullscreen ></iframe>
+            </div>
+                 <p><strong>שיעור 14</strong></p>
+                <p>Sunday 29 November 2015</p>
+            </div>
+        </div>
+
+    </section>
     <section class="row text-center" id="video2">
         <h2 >סרטונים בסיסיים על גרפי "נרות יפנים"</h2>
         <div class="col-sm-2">
             <div class="thumbnail">
-                <img src="assets/girlincar.jpg" alt="Paris" width="400" height="300">
-                <p><strong>Paris</strong></p>
+                <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="http://www.youtube.com/embed/XGSy3_Czz8k" allowfullscreen ></iframe>
+            </div>
+                <p><strong>שיעור 1</strong></p>
                 <p>Friday 27 November 2015</p>
                 <!--<button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>-->
             </div>
         </div>
         <div class="col-sm-2">
             <div class="thumbnail">
-                <img src="assets/stage.jpg" alt="New York" width="400" height="300">
-                <p><strong>New York</strong></p>
+               <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="http://www.youtube.com/embed/XGSy3_Czz8k" allowfullscreen ></iframe>
+            </div>
+                <p><strong>שיעור 2</strong></p>
                 <p>Saturday 28 November 2015</p>
             </div>
         </div>
         <div class="col-sm-2">
             <div class="thumbnail">
-                <img src="assets/mic.jpg" alt="San Francisco" width="400" height="300">
-                <p><strong>San Francisco</strong></p>
+                <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="http://www.youtube.com/embed/XGSy3_Czz8k" allowfullscreen ></iframe>
+
+            </div>
+                <p><strong>שיעור 3</strong></p>
+                <p>Sunday 29 November 2015</p>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div class="thumbnail">
+                <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="400" height="300" src="http://www.youtube.com/embed/XGSy3_Czz8k" allowfullscreen ></iframe>
+
+            </div>
+                <p><strong>שיעור 4</strong></p>
                 <p>Sunday 29 November 2015</p>
             </div>
         </div>
     </section>
-</section>
+
 <!-- video slides-->
 
 <!--Courses section-->
