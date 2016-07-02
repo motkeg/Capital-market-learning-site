@@ -77,6 +77,34 @@ img {
     color: #e3e3e3;
 }
 
+/*model*/
+.modal-header, h4, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-header, .modal-body {
+    padding: 40px 50px;
+}
+
+#btn-subscribe,#btn-send{
+    background: #3e8f3e;
+    padding: 10px 40px;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+    /* On hover, the color of .btn will transition to white with black text */
+#btn-send:hover, #btn-subscribe:hover {
+    border: 1px solid #333;
+    background-color: #5cb85c;
+    color: #000;
+
+}
+
 #contact {
     padding: 5rem 0;
     /*background-color: #e3e3e3;*/
