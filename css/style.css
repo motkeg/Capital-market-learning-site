@@ -111,6 +111,9 @@ img {
     padding:5rem 7.5rem;
 }
 
+.panel-heading h5 {
+font-size: larger;
+}
 #footer-main {
     background: #555;
     color: white;
