@@ -357,6 +357,7 @@
             <p><span class="glyphicon glyphicon-phone"></span><strong>+972 050-444-5555</strong></p>
             <p><span class="glyphicon glyphicon-envelope"></span><strong>Email:</strong> mail@mail.com</p>
         </div>
+        <form action="" name="sentMessage" id="contactForm">
         <div class="col-md-8">
             <div class="row">
                 <div class="col-sm-6 form-group">
@@ -366,14 +367,16 @@
                     <input class="form-control" id="email" name="email" placeholder="אימייל" type="email" required>
                 </div>
             </div>
-            <textarea class="form-control" id="comments" name="comments" placeholder="תוכן" rows="5"></textarea>
+            <textarea class="form-control" id="message" name="message" placeholder="תוכן" rows="5" required></textarea>
             <br>
-            <div class="row">
-                <div class="col-md-12 form-group">
-                    <button class="btn pull-right bg-primary" type="submit">Send</button>
+            <div class="row ">
+                <div class="col-md-12 form-group text-center"  >
+                    <div id="success" ></div>
+                    <button class="btn  bg-danger btn-lg" type="submit">Send</button>
                 </div>
             </div>
         </div>
+        </form>
     </div>
     <div class="row text-center">
         <div class="panel panel-primary">
@@ -450,6 +453,11 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+
 
 <script>
     $(document).ready(function(){
